@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalon2">
+
+    <TextView
+        android:id="@+id/tvNombreP21"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        android:text="Pantalon de Mezclilla"
+        android:textColor="@color/txtRojo"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivPantalonPMM112"
+        android:layout_width="249dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/paum" />
+
+    <TextView
+        android:id="@+id/tvDescrpP212"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="0dp"
+        android:text="Pantalon de Mezclilla \n\n 1. Color:	Negro \n
+2. Estilo:	Casual \n
+3. Tipo de Estampado:	Liso \n
+4. Tipo:	Pierna amplia \n
+5. Tipo de cierre:	Cintura elástica \n
+6. Longitud:	Extralargo \n
+7. Tipo de ajuste:	Regular"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

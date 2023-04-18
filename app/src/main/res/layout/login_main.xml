@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="383dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Usuario"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtContraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
+        android:textColor="@color/txtLogins"
+        android:textColorHint="@color/txtLogins"/>
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnIngresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952"
+        android:textColor="@color/txtLogins"
+        android:textColorHint="@color/txtLogins"/>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="179dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="129dp"
+        android:text="Ingresar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <Button
+        android:id="@+id/btnRegistrar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnIngresar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="64dp"
+        android:text="Registrar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="209dp"
+        android:layout_height="221dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="597dp"
+        android:hint="Usuario"
+        android:textColor="#f906f9"
+        android:editable="false"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="499dp"
+        android:hint="Contraseña"
+        android:textColor="#f906f9"
+        android:editable="false"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Usuario"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="22dp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

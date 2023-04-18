@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalon3">
+
+    <TextView
+        android:id="@+id/tvNombreP21"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        android:text="Pantalon de Mezclilla"
+        android:textColor="@color/txtRojo"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivPantalonPMMd1"
+        android:layout_width="249dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/pmma" />
+
+    <TextView
+        android:id="@+id/tvDescrpP212"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="0dp"
+        android:text="Pantalon de Mezclilla Mujer \n\n 1. 96% Algodón - 4% Elastano \n\n
+2. Corte del pantalón: Super skinny \n\n
+3. Tiro del pantalón: Tiro alto \n\n
+4. Material principal: Algodón \n\n
+5. Marca: Opp's Jeans"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

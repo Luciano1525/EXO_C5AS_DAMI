@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camisa3">
+
+    <TextView
+        android:id="@+id/tvNombreC1231"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        android:text="Camisa Kimono de Cuadros"
+        android:textColor="@color/txtRojo"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCamisaCG2"
+        android:layout_width="249dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/ckc1" />
+
+    <TextView
+        android:id="@+id/tvDescrpC3"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="11dp"
+        android:text="Camisa Kimono de Cuadros \n\n MATERIAL DEL PRODUCTO:
+50 % poliéster , 50 % algodón\n\n
+INFORMACIÓN ADICIONAL:
+Dimensiones: \n
+Longitud de la manga (cm): Completo \nCuello: Cuello vuelto"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vestido1">
+
+    <TextView
+        android:id="@+id/tvNombreV11"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        android:text="Vestido Rojo"
+        android:textColor="@color/txtRojo"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivVestidoVMBCR12w"
+        android:layout_width="249dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/vrg" />
+
+    <TextView
+        android:id="@+id/tvDescrpV13"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="11dp"
+        android:text="Vestido Rojo \n\n 1.Sexo: Mujer \n
+2.Estilo: 1950s \n
+3.Ocasión: vestido de primavera Fiesta - vestido de moda cuando asiste a la fiesta. \n
+4.Tipo de Vestidos: Vestido de encaje \n
+5.Escote: Cuello Barco - el diseño clásico hace que las personas sean más hermosas y jóvenes."
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

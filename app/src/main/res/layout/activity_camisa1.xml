@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo_pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camisa1">
+
+    <TextView
+        android:id="@+id/tvNombreC222"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="5dp"
+        android:text="Camisa Manga Larga"
+        android:textColor="@color/txtRojo"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCamisad22"
+        android:layout_width="249dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/cgml1" />
+
+    <TextView
+        android:id="@+id/tvDescrpC12"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="11dp"
+        android:text="CAMISA DE GABARDINA MANGA LARGA \n\n MATERIAL DEL PRODUCTO:
+Algodon y poliester\n\n
+INFORMACIÓN ADICIONAL:
+Dimensiones: \n
+Alto: 64.8 cm.\nAncho: 50.8 cm. "
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>
